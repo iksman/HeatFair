@@ -5,6 +5,10 @@ Just edit the ```interval``` and ```meassurements``` variable in ```HeatFair.py`
 
 -------
 
+Requirements: ```gpiozero``` python module
+
+-------
+
 Meassurements is the amount of meassurements taken into consideration for the average that is going to be stored.
 Interval is the time between the meassurements in seconds.
 
