@@ -9,9 +9,10 @@ meassurements = 12
 
 #Time between each meassurement (in seconds)
 interval = 20
-
 #Total time per output in seconds = meassurements * interval
 
+#Maximum of datapoints in first file before datapoints will be retired to legacy.json
+datapoints = 500
 
 
 logMaker = Logger	(
@@ -19,7 +20,7 @@ logMaker = Logger	(
   getData,
   "data",
   "temperature",
-  500
+  datapoints
 )
 
 logMaker.log(meassurements)
