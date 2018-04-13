@@ -1,4 +1,4 @@
-# HeatFair
+# HeatFair for RaspberryPi
 
 A Python heat logger that catalogs heat and stores it into a JSON with help of my writer component.
 Just edit the ```interval``` and ```meassurements``` variable in ```HeatFair.py``` to your liking.
