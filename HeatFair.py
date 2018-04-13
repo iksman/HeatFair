@@ -15,11 +15,11 @@ interval = 20
 
 
 logMaker = Logger	(
-						interval,
-						getData,
-						"data",
-						"temperature",
-						500
-					)
+  interval,
+  getData,
+  "data",
+  "temperature",
+  500
+)
 
 logMaker.log(meassurements)
