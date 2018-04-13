@@ -12,4 +12,4 @@ Total time between datapoints will then be ```meassurements``` * ```interval```
 
 -------
 
-By default, up to 500 datapoints will be stored in ```output.json``` for easy access. This number can be adjusted in the ```datapoints``` variable. When the maximum of datapoints is reached, the logger will write the oldest datapoint to a seperate file called ```legacy.json``` where all datapoints will be collected without a maximum.
+The 500(by default) most recent datapoints will be stored in ```output.json``` for easy access. This number can be adjusted in the ```datapoints``` variable in ```HeatFair.py```. When the maximum of datapoints is reached, the logger will write the oldest datapoint to a seperate file called ```legacy.json``` where all datapoints will be collected without a maximum.
